@@ -1,7 +1,7 @@
-string = playerInput 
 
 var playername = prompt('Hello, You are now playing Bear hunter ninja. to start, please enter your name: ');
-var alert = `Hi ${uname} welcome and enjoy your time here`;
+var gameWelcome = `Hi ${uname} welcome and enjoy your time here`;
+    alert(gameWelcome);
 var playerInput = prompt('So who are you? bear, ninja, or hunter?');
 var computerChoice = "bear"
 
