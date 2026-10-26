@@ -1,7 +1,6 @@
 if ((playerinput === "hunter" && computerinput === "bear")
      || (playerinput === "bear" && computerinput === "ninja")
      || (playerinput === "ninja" && computerinput === "hunter"))
-
 {
     gameOutcomeoutcome = "win";
 }
