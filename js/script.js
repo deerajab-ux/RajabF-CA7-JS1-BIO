@@ -1,9 +1,9 @@
 
-var playername = prompt('Hello, You are now playing Bear hunter ninja. to start, please enter your name: ');
-var gameWelcome = `Hi ${uname} welcome and enjoy your time here`;
-    alert(gameWelcome);
-var playerInput = prompt('So who are you? bear, ninja, or hunter?');
-var computerChoice = "bear"
+const playername = prompt('Hello, You are now playing Bear hunter ninja. to start, please enter your name: ');
+const gameWelcome = ('hi' + playername + 'welcome and enjoy your time here');
+      alert(gameWelcome);
+const playerInput = prompt('So who are you? bear, ninja, or hunter?');
+const computerChoice = "bear"
 
 
 if ((playerinput === "hunter" && computerinput === "bear")
