@@ -1,20 +1,22 @@
 
 const playername = prompt('Hello, You are now playing Bear hunter ninja. to start, please enter your name: ');
-const gameWelcome = ('hi' + playername + 'welcome and enjoy your time here');
+const gameWelcome = ('hi ' + playername + ' welcome and enjoy your time here');
       alert(gameWelcome);
 const playerInput = prompt('So who are you? bear, ninja, or hunter?');
-const computerChoice = "bear"
+const computerInput = "bear"
+const gameOutcome = '';
+const gamedecider = '';
 
 
-if ((playerinput === "hunter" && computerinput === "bear")
-     || (playerinput === "bear" && computerinput === "ninja")
-     || (playerinput === "ninja" && computerinput === "hunter"))
+if ((playerInput === "hunter" && computerInput === "bear")
+     || (playerInput === "bear" && computerInput === "ninja")
+     || (playerInput === "ninja" && computerInput === "hunter"))
 {
-    gameOutcomeoutcome = "win";
+    gameOutcome = "win";
 }
-else if(playerinput === computerinput)
+else if(playerInput === computerInput)
 {
-    gameOutcomeoutcome = "tie"
+    gameOutcome = "tie"
 }
 else 
 {
@@ -33,6 +35,6 @@ switch (gameOutcome)
         gamedecider = "its a tie!"
 }
 
-var gameover = playername + ' you chose ' + playerInput 
-    + '!\n' + 'The computer chose ' + computerChoice + '!' 
-    + gamedecider
+const gameover = (playername + ' you chose ' + playerInput 
+    + '!\n' + 'The computer chose ' + computerInput + '!' 
+    + gamedecider);
