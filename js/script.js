@@ -41,5 +41,5 @@ const gameover = (playername + ' you chose ' + playerInput
     + '!\n' + 'The computer chose ' + computerInput + '!' 
     + gamedecider);
 
-const element = document.getElementById('demo').innerHTML = 'A string of text!'
-  console.log("Hello, if you see this message you are doing soemthing right");
+const element = document.getElementById('demo').innerHTML = gameover
+console.log(gameover);
