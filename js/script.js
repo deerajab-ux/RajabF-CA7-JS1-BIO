@@ -28,17 +28,17 @@ else
 switch (gameOutcome)
 {
     case "win":
-        gamedecider = "You win!!"
+        gamedecider = "You Win!!"
         break;
     case "lose":
-        gamedecider = "You lose!!"
+        gamedecider = "You Lose!!"
         break;
     default:
-        gamedecider = "its a tie!!"
+        gamedecider = "it's a Tie!!"
 }
 //give the player the deciding game outcome
 const gameover = (playername + ' you chose ' + playerInput 
-    + '!\n' + 'The computer chose ' + computerInput + '!' 
+    + '!<br>' + 'The computer chose ' + computerInput + '!<br>' 
     + gamedecider);
 
 const element = document.getElementById('demo').innerHTML = gameover
